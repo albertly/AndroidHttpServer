@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_say" android:title="@string/action_say"
+        android:orderInCategory="90" app:showAsAction="never" />
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+        <item android:id="@+id/action_close" android:title="@string/action_close"
+            android:orderInCategory="110" app:showAsAction="never" />
+
+
+
+    <group android:checkableBehavior="single" >
+        <item android:id="@+id/item1" android:checked="true" android:titleCondensed="Options" android:title="Voice1" app:showAsAction="never" >
+        </item>
+        <item android:id="@+id/item2" android:titleCondensed="Persist" android:title="Voice2" app:showAsAction="never" >
+        </item>
+    </group>
+
+</menu>

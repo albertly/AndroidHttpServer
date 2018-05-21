@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidHttpServer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Log Dump</string>
+    <string name="action_close">Close</string>
+    <string name="action_say">Say</string>
+    <string name="item1">Voice 1</string>
+    <string name="item2">Voice 2</string>
+</resources>
